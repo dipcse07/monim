@@ -1,0 +1,39 @@
+{
+    "limitPerPage": 5,
+    "limit": 500,
+    "pageable": true,
+    "columns":"bnName,ActiveCases,TotalCases,NewCases,TotalDeaths,NewDeaths,SeriousCases,TotalRecovered",
+    "column_definition":
+    {
+        "ActiveCases":
+        {
+            "thousand_separator": true,
+            "decimal": 0
+        },
+        "TotalCases":
+        {
+            "thousand_separator": true,
+            "decimal": 0
+        },
+        "NewCases":
+        {
+            "thousand_separator": true,
+            "decimal": 0
+        },
+        "TotalDeaths":
+        {
+            "thousand_separator": true,
+            "decimal": 0
+        },
+        "SeriousCases":
+        {
+            "thousand_separator": true,
+            "decimal": 0
+        },
+        "TotalRecovered":
+        {
+            "thousand_separator": true,
+            "decimal": 0
+        }
+    }
+}
